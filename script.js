@@ -28,8 +28,7 @@ function addWeatherToPage(data) {
     document.querySelector(
       "body"
     ).style.backgroundImage = `url("./img/load.webp")`;
-  }
-  if (data.weather[0].main === "Drizzle") {
+  } else if (data.weather[0].main === "Drizzle") {
     weather.innerHTML = `
     <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /> ${temp}°C <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /></h2>
     <small>Rainy Sky</small>
@@ -37,8 +36,7 @@ function addWeatherToPage(data) {
     document.querySelector(
       "body"
     ).style.backgroundImage = `url("./img/rain.webp")`;
-  }
-  if (data.weather[0].main === "Clouds") {
+  } else if (data.weather[0].main === "Clouds") {
     weather.innerHTML = `
     <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /> ${temp}°C <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" /></h2>
     <small>Cloudy Sky</small>
