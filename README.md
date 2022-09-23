@@ -1,5 +1,5 @@
 ## Weather App
-![Animation](https://github.com/bbluechip/voltran/blob/master/images/Animation.gif)
+![Animation](https://github.com/bbluechip/weather-app-js/blob/master/img/Animation.gif)
 
 
 👉[Click here to see the page](https://bbluechip.github.io/weather-app-js/)
